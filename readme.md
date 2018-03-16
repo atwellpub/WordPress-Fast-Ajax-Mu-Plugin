@@ -8,7 +8,7 @@ This mu-plugin was developed to help improve speed for (Inbound Now's)[https://w
 ## Install
 
 1. Drop fast-ajax.php directly into /wp-content/mu-plugins/.
-2. You are done!. 
+2. You are done!
 
 ## Usage
 
