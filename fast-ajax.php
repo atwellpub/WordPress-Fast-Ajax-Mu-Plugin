@@ -1,6 +1,6 @@
 <?php
 
-define('INBOUND_FAST_AJAX' , true );
+define('FAST_AJAX' , true );
 
 /**
  * Enable Fast Ajax
@@ -22,7 +22,6 @@ function ajax_disable_plugins($plugins){
     if ( !isset($_REQUEST['load_plugins']) || !$_REQUEST['load_plugins'] )  {
         return array();
     }
-
 
     /* convert json */
     if (!is_array($_REQUEST['load_plugins']) && $_REQUEST['load_plugins']) {
