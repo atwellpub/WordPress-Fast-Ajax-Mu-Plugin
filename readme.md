@@ -31,7 +31,6 @@ jQuery.ajax({
         /* handle actions here */
     },
     error: function (request, status, err) {
-        var response = {};
         console.log(err);
         /* handle error here */
     }
