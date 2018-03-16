@@ -1,8 +1,10 @@
 ## Description
 
-WordPress AJAX calls load the entire WordPress environment and are never cached. This plugin allows you to specify which plugins your AJAX call requires to complete and disables loading of all other plugins to save server resources and increase completion speed. 
+WordPress AJAX calls are not cached and load the entire WordPress environment including all active plugins and the activated theme. 
 
-This mu-plugin was developed to help improve speed for (Inbound Now's)[https://www.inboundnow.com] frontend ajax calls. 
+This plugin allows you to specify which plugins your AJAX call requires to complete a task. This feature allows you to save server resources and increase completion speed. 
+
+This mu-plugin was developed to help improve speed for [Inbound Now's](https://www.inboundnow.com) frontend ajax calls. 
  
 
 ## Install
