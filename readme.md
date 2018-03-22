@@ -2,7 +2,7 @@
 
 WordPress AJAX calls are not cached and load the entire WordPress environment including all active plugins and the activated theme. 
 
-This plugin allows you to specify which plugins your AJAX call requires to complete a task. This feature allows you to save server resources and increase completion speed. 
+This plugin allows you to specify which plugins your AJAX call requires to complete a task. This feature allows you to save server resources and reduce the time it takes to complete ajax calls.
 
 This mu-plugin was developed to help improve speed for [Inbound Now's](https://www.inboundnow.com) frontend ajax calls. 
  
